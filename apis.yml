@@ -1,7 +1,11 @@
 aid: dalma
 name: Dalma
-description: 'Dalma is a company surfaced as a portfolio company of northzone and added to the API Evangelist
-  network as a stub for enrichment. Sector: consumer. This profile is a lead awaiting the enrichment pipeline.'
+description: 'Dalma is a French insurtech offering pet health insurance for dogs and cats, reimbursing
+  veterinary bills (up to 100%, no deductible, EUR 2,500 annual ceiling) with fast payouts (50% within
+  30 seconds) and unlimited teleconsultations with veterinarians via its mobile app. Founded in Paris and
+  backed by Northzone, Dalma insures 60,000+ pets across France and has expanded to Germany. It is a
+  direct-to-consumer insurance brand with a member app (app.dalma.co) and a quote/subscription funnel; it
+  publishes no public developer API, OpenAPI definition, SDK, or developer portal at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/dalma/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,12 +13,30 @@ x-backed-by:
 - northzone
 x-tier: stub
 x-tier-reason: portfolio-lead
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-18'
+image: https://cdn.prod.website-files.com/634915d4d2f3b49c54003f2f/63495fa74a6db349680f164a_dalma.png
 tags:
 - Company
 - Consumer
+- Insurance
+- InsurTech
+- Pet Insurance
+- Pets
+- Veterinary
+- France
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -22,5 +44,27 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/dalma-domain-security.yml
 - type: Website
   url: https://www.dalma.co
+- type: Blog
+  url: https://www.dalma.co/blog
+- type: Support
+  name: Help Center
+  url: https://intercom.help/dalma/fr/
+- type: SignUp
+  name: Get a quote
+  url: https://signup.dalma.co/redirect/marketing
+- type: Login
+  url: https://app.dalma.co/login
+- type: PrivacyPolicy
+  url: https://editique.dalma.co/formule_dalma/latest/Dalma-Politique_de_confidentialite.pdf
+- type: TermsOfService
+  name: Conditions Generales d'Utilisation
+  url: https://editique.dalma.co/formule_dalma/latest/CGU_dalma_fr.pdf
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
