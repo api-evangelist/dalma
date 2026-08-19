@@ -24,7 +24,7 @@ accessModel:
   source: []
   generated: '2026-07-22'
   method: derived
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-18'
 image: https://cdn.prod.website-files.com/634915d4d2f3b49c54003f2f/63495fa74a6db349680f164a_dalma.png
